@@ -18,4 +18,5 @@ Jugamos con flask en un repositorio compartido.
 - Para inspeccionar un commit anterior `git checkout hash-del-commit` (bastan 7 u 8 caracteres últimos)
 - Volver del checkout del commit previo al actual: `git switch -`
 - Hacer cambios desde el commit anterior y mantenerlos en una reama independiente: `git switch -c`
--prueba
+
+¡Vaya lío esto del git y las ramas!
