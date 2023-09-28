@@ -1,6 +1,8 @@
+from flask import render_template
+
 from . import app
 
 
 @app.route("/")
 def home():
-    return "Estoy temblando"
+    return render_template('base.html')
