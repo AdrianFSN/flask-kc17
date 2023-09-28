@@ -1,9 +1,2 @@
-from flask import Flask
-
-
-app = Flask(__name__)
-
-
-@app.route("/")
-def home():
-    return "Estoy temblando"
+from holaflask import app
+from holaflask.views import *
